@@ -90,7 +90,7 @@ CUDA_VISIBLE_DEVICES=0 python Task_B/run_architecture_tests.py
 
 | Architecture | Accuracy | Parameters | vs Target (48.40%) |
 |--------------|----------|------------|-------------------|
-| **Wide ResNet** | **57.56%** | 18.5M | **+19%** |
+| **Wide ResNet** | **57.56%** | 18.5M | **+19%** (Best!)|
 | Wide ConvNeXt | 44.67% | 1.8M | -7.7% |
 | ResNeSt-4Layer | 43.78% | 6.5M | -9.5% |
 | Attention-CNN | 43.11% | 5.8M | -10.9% |
