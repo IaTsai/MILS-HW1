@@ -1,12 +1,12 @@
-# 🎯 MILS Assignment 1 - Final Submission Checklist
+# MILS Assignment 1 - Final Submission Checklist
 
-**Project Status**: ✅ **READY FOR SUBMISSION**
+**Project Status**: **READY FOR SUBMISSION**
 
-## 📊 Achievement Summary
+## Achievement Summary
 
-### Task A: Dynamic Convolution Module ✅
+### Task A: Dynamic Convolution Module
 - **Best Performance**: RGB - 33.56%
-- **All Channels Supported**: ✅
+- **All Channels Supported**:
   - RGB: 33.56%
   - RG: 32.22%, GB: 32.67%, RB: 32.67%
   - R: 28.67%, G: 27.33%, B: 26.22%
@@ -14,15 +14,15 @@
   - `Task_A/taskA_fixed.py`
   - `Task_A/flexible_cnn.py`
 
-### Task B: 4-Layer Efficient Network ✅
+### Task B: 4-Layer Efficient Network
 - **Target**: 48.40% (90% of ResNet34's 53.78%)
 - **Achievement**: **57.56%** with Wide ResNet
-- **Performance**: **Exceeded target by 19%!** 🎉
+- **Performance**: **Exceeded target by 19%!**(Best)
 - **Key Files**:
   - `Task_B/train_wide_resnet.py`
   - `Task_B/auto_test_architectures.py`
 
-## ✅ Pre-Submission Checklist
+## Pre-Submission Checklist
 
 ### 1. Code Quality
 - [x] All Python files are properly formatted
@@ -56,7 +56,7 @@
 - [x] Only essential files added (no .pth files)
 - [x] Proper .gitignore in place
 
-## 📁 Submission Package Contents
+## Submission Package Contents
 
 ```
 MILS_Assignment1/
@@ -88,7 +88,7 @@ MILS_Assignment1/
         └── intermediate_results.json # Detailed metrics
 ```
 
-## 🚀 Final Steps for Submission
+## Final Steps for Submission
 
 ### 1. Create ZIP Archive
 ```bash
@@ -118,7 +118,7 @@ ls -lh MILS_Assignment1_final.zip
 - [ ] Verify upload successful
 - [ ] Check submission deadline
 
-## 📝 Key Numbers for Quick Reference
+## Key Numbers for Quick Reference
 
 - **Task A Best**: 33.56% (RGB)
 - **Task B Best**: 57.56% (Wide ResNet)
@@ -127,13 +127,13 @@ ls -lh MILS_Assignment1_final.zip
 - **Parameters**: 18.5M (Wide ResNet)
 - **Training Time**: ~2.5 hours (10 epochs)
 
-## 🎊 Congratulations!
+## Congratulations!
 
 Your project has successfully:
-- ✅ Implemented dynamic convolution for all channel combinations
-- ✅ Exceeded Task B target by 19%
-- ✅ Created automated architecture testing framework
-- ✅ Produced MIT-level technical documentation
-- ✅ Demonstrated that wide shallow networks can outperform deep ones
+- Implemented dynamic convolution for all channel combinations
+- Exceeded Task B target by 19%
+- Created automated architecture testing framework
+- Produced MIT-level technical documentation
+- Demonstrated that wide shallow networks can outperform deep ones
 
-**Outstanding work! Ready for submission!** 🚀
+**Outstanding work! Ready for submission!**
