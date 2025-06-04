@@ -5,13 +5,13 @@
 This project successfully implements two challenging tasks in modern deep learning:
 
 - **Task A**: Dynamic Convolution Module supporting arbitrary channel combinations
-  - ✅ Achieved **33.56%** accuracy on RGB input
-  - ✅ Successfully handles all channel combinations (R, G, B, RG, GB, RB, RGB)
+  - Achieved **33.56%** accuracy on RGB input
+  - Successfully handles all channel combinations (R, G, B, RG, GB, RB, RGB)
 
 - **Task B**: Efficient 4-Layer Network Architecture  
-  - ✅ Achieved **57.56%** accuracy with Wide ResNet
-  - ✅ **Exceeded target by 19%** (target: 48.40%, ResNet34's 90%)
-  - ✅ Outperformed ResNet34 (53.78%) with only 4 layers
+  - Achieved **57.56%** accuracy with Wide ResNet
+  - **Exceeded target by 19%** (target: 48.40%, ResNet34's 90%)
+  - Outperformed ResNet34 (53.78%) with only 4 layers
 
 ## Project Structure
 
@@ -90,7 +90,7 @@ CUDA_VISIBLE_DEVICES=0 python Task_B/run_architecture_tests.py
 
 | Architecture | Accuracy | Parameters | vs Target (48.40%) |
 |--------------|----------|------------|-------------------|
-| **Wide ResNet** | **57.56%** | 18.5M | **+19%** ✅ |
+| **Wide ResNet** | **57.56%** | 18.5M | **+19%** |
 | Wide ConvNeXt | 44.67% | 1.8M | -7.7% |
 | ResNeSt-4Layer | 43.78% | 6.5M | -9.5% |
 | Attention-CNN | 43.11% | 5.8M | -10.9% |
