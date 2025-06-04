@@ -1,6 +1,6 @@
 # Key Numbers Summary - MILS Assignment I
 
-## 🎯 Primary Achievement Metrics
+## Primary Achievement Metrics
 
 ### Task A: Dynamic Convolution
 - **RGB Performance**: 33.56% ± 0.23%
@@ -14,7 +14,7 @@
 - **Exceeded Target By**: +19% (9.16 percentage points)
 - **Outperformed ResNet34**: +3.78% (57.56% vs 53.78%)
 
-## 📊 Comparative Analysis Numbers
+## Comparative Analysis Numbers
 
 ### Efficiency Metrics
 - **Wide ResNet Parameters**: 18.5M
@@ -32,7 +32,7 @@
 4. Attention-CNN: 43.11% (5.8M params)
 5. Dense Efficient: 40.22% (0.57M params)
 
-## 🔬 Technical Specifications
+## Technical Specifications
 
 ### Dataset Statistics
 - **Classes**: 100
@@ -49,7 +49,7 @@
 - **Dropout**: 0.3
 - **Label Smoothing**: 0.1
 
-## 📈 Performance Breakdown
+## Performance Breakdown
 
 ### Task A Channel Performance
 | Mode | Accuracy | Relative |
@@ -69,7 +69,7 @@
 - **Initialization Impact**: -5.23% (random vs proper)
 - **Depth Impact**: -6.34% (3 layers vs 4)
 
-## 💡 Key Insights Numbers
+## Key Insights Numbers
 
 ### Gradient Flow
 - **Gradient Magnitude Ratio**: 3.7× stronger in Wide ResNet vs ResNet34
@@ -86,7 +86,7 @@
 - **Confidence Interval**: ±0.42% (3 runs)
 - **Top-5 Accuracy**: 78.9% (Wide ResNet)
 
-## 🏆 Achievement Summary
+## Achievement Summary
 
 ### Records Set
 1. **Highest 4-layer accuracy**: 57.56%
@@ -100,13 +100,13 @@
 - **Training Time Saved**: 607 seconds per model
 - **Parameter Reduction**: 6.98× (Task A, vs separate models)
 
-## 📌 Critical Thresholds
+## Critical Thresholds
 
 ### Success Criteria Met
-- ✅ Task A: Handle all channel combinations (7/7)
-- ✅ Task B: Exceed 48.40% target (57.56% > 48.40%)
-- ✅ Outperform baseline (57.56% > 53.78%)
-- ✅ Maintain efficiency (<20M parameters)
+- Task A: Handle all channel combinations (7/7)
+- Task B: Exceed 48.40% target (57.56% > 48.40%)
+- Outperform baseline (57.56% > 53.78%)
+- Maintain efficiency (<20M parameters)
 
 ### Performance Boundaries
 - **Minimum Viable Accuracy**: 48.40%
