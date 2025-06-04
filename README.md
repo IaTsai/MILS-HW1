@@ -1,6 +1,6 @@
 # MILS Assignment I - Dynamic Convolution & Efficient 4-Layer Networks
 
-## 🏆 Achievement Summary
+## Achievement Summary
 
 This project successfully implements two challenging tasks in modern deep learning:
 
@@ -13,7 +13,7 @@ This project successfully implements two challenging tasks in modern deep learni
   - ✅ **Exceeded target by 19%** (target: 48.40%, ResNet34's 90%)
   - ✅ Outperformed ResNet34 (53.78%) with only 4 layers
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MILS_Assignment1/
@@ -35,7 +35,7 @@ MILS_Assignment1/
     └── technical_report.pdf     # Detailed technical report
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -72,7 +72,7 @@ CUDA_VISIBLE_DEVICES=0 python Task_B/train_wide_resnet.py --epochs 10
 CUDA_VISIBLE_DEVICES=0 python Task_B/run_architecture_tests.py
 ```
 
-## 📊 Key Results
+## Key Results
 
 ### Task A: Channel Combination Performance
 
@@ -101,7 +101,7 @@ CUDA_VISIBLE_DEVICES=0 python Task_B/run_architecture_tests.py
 | Ghost-Net Style | 23.33% | 0.7M | -51.8% |
 | Mini Swin | 16.22% | 1.3M | -66.5% |
 
-## 🔬 Technical Innovations
+## Technical Innovations
 
 ### 1. Dynamic Convolution (Task A)
 - **Weight Generation Network**: Dynamically generates convolution weights based on input channels
@@ -118,7 +118,7 @@ CUDA_VISIBLE_DEVICES=0 python Task_B/run_architecture_tests.py
 - **Efficient Design**: Outperforms deeper ResNet34 with fewer layers
 - **Strong Regularization**: Dropout and proper initialization
 
-## 📈 Reproducing Results
+## Reproducing Results
 
 ### Dataset Preparation
 The project uses mini-ImageNet with 100 classes:
@@ -137,7 +137,7 @@ dropout_rate = 0.3
 width_multiplier = 4
 ```
 
-## 🎯 Performance Analysis
+## Performance Analysis
 
 ### Why Wide ResNet Succeeded
 1. **Optimal capacity**: 18.5M parameters provide sufficient model capacity
@@ -150,7 +150,7 @@ width_multiplier = 4
 - ResNet34: 2.56 accuracy/M params
 - **21% more parameter efficient** than ResNet34
 
-## 📚 Citation
+## Citation
 
 If you use this code in your research, please cite:
 
@@ -164,13 +164,13 @@ If you use this code in your research, please cite:
 }
 ```
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Mini-ImageNet dataset creators
 - PyTorch team for the excellent framework
 - Authors of Wide ResNet, ConvNeXt, and other architectures
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
