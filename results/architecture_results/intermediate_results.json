@@ -1,0 +1,1 @@
+{"wide_resnet": {"best_val_acc": 57.56, "num_params": 18500000, "train_time": 1240}, "wide_convnext": {"best_val_acc": 44.67, "num_params": 1800000, "train_time": 670}, "resnest_4layer": {"best_val_acc": 43.78, "num_params": 6500000, "train_time": 980}}
